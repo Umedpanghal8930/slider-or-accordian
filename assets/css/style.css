@@ -36,6 +36,10 @@
     font-size: 44px;
 }
 
+.fs-48 {
+    font-size: 48px !important;
+}
+
 /* height */
 .lh-56 {
     line-height: 56px;
@@ -55,6 +59,10 @@
 
 .lh-50 {
     line-height: 50px;
+}
+
+.lh-72 {
+    line-height: 72px;
 }
 
 .lh-20 {
@@ -101,8 +109,13 @@
 .bg-yellow {
     background-color: #f6e300;
 }
+
 .bg-light-yellow {
     background: #fff03f !important;
+}
+
+.color-b7b8 {
+    color: #b7b8b8 !important;
 }
 
 /* nowrap  */
@@ -326,12 +339,51 @@
     background-image: linear-gradient(to right, #021b32, #02203e, #02274f, #02274e, #021c32, #021c31);
 }
 
-/* accordian-1  */
-.bg-light-yellow {
-    background: #fff03f !important;
-}
-.accordion-item-1{
+/* accordian-1-faq */
+
+.accordion-item-1 {
     border: none !important;
+}
+
+/* gilded-accordian  */
+.bg-img-gilded {
+    background-image: url(../image/png.img/glided-accordian-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.text-question {
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.bg-blur {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0.03) 100%) !important;
+}
+
+.accordion-text-2-button {
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.gilded .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+}
+
+.gilded .accordion-item {
+    border-radius: 10px;
+    border: 2px solid #3f4344;
 }
 
 @media (max-width:991.98px) {
