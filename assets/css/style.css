@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 /* font family  */
@@ -17,6 +16,14 @@
 
 .poppins-font {
     font-family: "poppins", sans-serif;
+}
+
+.audiowide-font {
+    font-family: "Audiowide", sans-serif;
+}
+
+.Montserrat-font {
+    font-family: "montserrat", sans-serif;
 }
 
 /* font-size */
@@ -40,9 +47,25 @@
     font-size: 48px !important;
 }
 
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
 /* height */
 .lh-56 {
     line-height: 56px;
+}
+
+.lh-81 {
+    line-height: 81px;
+}
+
+.lh-24 {
+    line-height: 24px;
 }
 
 .lh-36 {
@@ -91,6 +114,15 @@
 /* padding */
 .pb-40 {
     padding-bottom: 40px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* color */
@@ -174,6 +206,10 @@
     display: flex;
 }
 
+.slider-1 .slick-track .slick-slide.slick-current.slick-active {
+    border: 2px solid #1219d2 !important;
+}
+
 .slider-1 .slick-dots li {
     top: 30px !important;
     width: 32px !important;
@@ -197,6 +233,7 @@
     opacity: 2 !important;
     color: white !important;
 }
+
 
 /* happy-customer-slider  */
 .slider-card {
@@ -253,7 +290,6 @@
 
 .slider-start .slick-track .slick-slide.slick-current.slick-active {
     border: 2px solid #F53838;
-
 }
 
 .slider-start .slick-next:before {
@@ -345,6 +381,11 @@
     border: none !important;
 }
 
+.faq .accordion-button {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
 /* gilded-accordian  */
 .bg-img-gilded {
     background-image: url(../image/png.img/glided-accordian-bg-img.png);
@@ -384,6 +425,48 @@
 .gilded .accordion-item {
     border-radius: 10px;
     border: 2px solid #3f4344;
+}
+
+/* < !-- accordian-3 --> */
+.bg-img-accordian-3 {
+    background-image: url(../image/png.img/accordian-3-background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accordian-border {
+    border: 1px solid #1EADB6 !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 40px !important;
+}
+
+.border-shadow {
+    -webkit-box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+    -moz-box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+    box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+}
+
+.top-vector {
+    top: -0.7px;
+    left: -0.3px;
+}
+
+.bottom-vector {
+    bottom: -0.7px;
+    right: -1.5px;
+}
+
+.accordian-3 .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='lightblue' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+}
+
+.accordion-text-3-button {
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    box-shadow: none !important;
+    color: white !important;
+    /* min-height: 100px; */
 }
 
 @media (max-width:991.98px) {
